@@ -139,3 +139,7 @@ config.json
 /toasterenv/
 old_bot.py
 .DS_Store
+
+configs
+configs/config_example.json
+configs/config_example.json

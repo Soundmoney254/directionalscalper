@@ -17,26 +17,26 @@
     "stoploss_enabled": false,
     "stoploss_upnl_pct": 0.05,
     "liq_stoploss_enabled": false,
-    "liq_price_stop_pct": 0.50,
+    "liq_price_stop_pct": 0.5,
     "percentile_auto_reduce_enabled": false,
     "auto_reduce_enabled": true,
     "auto_reduce_start_pct": 0.058,
-    "auto_reduce_maxloss_pct": 0.80,
-    "max_pos_balance_pct": 0.20,
-    "auto_reduce_wallet_exposure_pct": 0.20,
+    "auto_reduce_maxloss_pct": 0.8,
+    "max_pos_balance_pct": 0.2,
+    "auto_reduce_wallet_exposure_pct": 0.2,
     "auto_reduce_marginbased_enabled": false,
     "entry_during_autoreduce": true,
-    "hedge_ratio": 0.10,
-    "hedge_price_difference_threshold": 0.10,
+    "hedge_ratio": 0.1,
+    "hedge_price_difference_threshold": 0.1,
     "auto_leverage_upscale": false,
-    "wallet_exposure": 1.00,
+    "wallet_exposure": 1.0,
     "test_orders_enabled": false,
     "max_usd_value": 100,
     "min_qty_threshold": 0,
     "long_liq_pct": 0.05,
     "short_liq_pct": 0.05,
     "MaxAbsFundingRate": 0.0002,
-    "blacklist": ["SOLUSDT", "10000*", "1000*", "BTCUSDT", "ETHUSDT", "1000LADYSUSDT", "BCHUSDT", "LUNA2USDT", "1000BONKUSDT", "1000000VINUUSDT", "10000LADYSUSDT", "10000SATSUSDT", "CTCUSDT", "1000PEPEUSDT", "USTUSDT", "TRBUSDT", "BSVUSDT", "AVAXUSDT"],
+    "blacklist": ["1000000VINUUSDT", "10000LADYSUSDT"],
     "whitelist": [],
     "dashboard_enabled": false,
     "shared_data_path": "data/"
@@ -47,7 +47,7 @@
       "account_name": "account_1",
       "api_key": "",
       "api_secret": "",
-      "symbols_allowed": 10 
+      "symbols_allowed": 10
     },
     {
       "name": "bybit",
@@ -69,7 +69,7 @@
       "api_key": "",
       "api_secret": "",
       "passphrase": "",
-      "symbols_allowed": 8 
+      "symbols_allowed": 8
     },
     {
       "name": "okx",
@@ -77,28 +77,28 @@
       "api_key": "",
       "api_secret": "",
       "passphrase": "",
-      "symbols_allowed": 12 
+      "symbols_allowed": 12
     },
     {
       "name": "huobi",
       "account_name": "account_1",
       "api_key": "",
       "api_secret": "",
-      "symbols_allowed": 10 
+      "symbols_allowed": 10
     },
     {
       "name": "binance",
       "account_name": "account_1",
       "api_key": "",
       "api_secret": "",
-      "symbols_allowed": 9 
+      "symbols_allowed": 9
     },
     {
       "name": "phemex",
       "account_name": "account_1",
       "api_key": "",
       "api_secret": "",
-      "symbols_allowed": 7 
+      "symbols_allowed": 7
     }
   ],
   "logger": {
